@@ -1,0 +1,134 @@
+<!DOCTYPE html> <!-- Informa o browser que isso é um arquivo HTML. -->
+
+<html lang="pt-BR"> <!-- Marca o início do documento. -->
+
+    <head> <!-- "Comandos" de "pré-processamento". -->
+        <meta charset="UTF-8"> <!-- Conjunto de caracteres. -->
+        <!-- A linha abaixo trata da RESPONSIVIDADE. -->
+        <meta name="viewport" content="width=device-width">
+        <title>Everton | Sobre</title> <!-- Título da Janela. -->
+        <link href="css/sobre.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <img src="img/meu-logo.png" alt="A imagem da logo.">
+        <!-- h1 = heading 1, o título MAIOR. Os valores
+        vão de h1 a h6. -->
+        <h1 id="sobre" class="titulo">Sobre Mim</h1>
+
+        <p>
+            Sou programador de games a 11 anos e tal e tal e tal Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Sequi, magni dolor. Corrupti amet distinctio eligendi 
+            delectus fugiat expedita facilis, ea, voluptatibus unde totam eaque animi, quisquam 
+            libero impedit hic iste.
+        </p>
+
+        <p>
+            <a href="https://maps.google.com/?q=casa do walter white, eua" target="_blank">Nosso escritório está localizado em El Passo, Texas</a>, ao lado de uma loja de conveniências. 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, quas ea explicabo est neque 
+            iusto corrupti ducimus tempore laboriosam culpa suscipit! Totam itaque fugiat aspernatur et alias, 
+            possimus atque laudantium.
+        </p>
+
+        <!-- Insere figuras/imagens com legenda. -->
+        <figure class="meu-escritorio">
+            <img src="img/office.jpg" alt="Um prédio de escritórios.">
+            <figcaption>
+                <em>O prédio da nossa empresa no Texas.</em>
+            </figcaption>
+        </figure>
+
+        <p>
+            <a href="index.html" target="_blank">Visite nossa homepage para contratar nossos serviços</a> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolorum cumque, deserunt, enim tempora quae 
+            voluptatum repellat rerum reiciendis sed quis ducimus alias, unde ullam sapiente dignissimos consectetur neque voluptatibus.
+        </p>
+
+        <p>
+            Conheça nossa <a href="#historia">história</a> para saber mais e tal e tal e veja também nossos
+            <a href="#diferenciais">diferenciais</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aperiam possimus fuga ex 
+            numquam, laborum velit fugiat esse quo sint sequi quia animi officia nesciunt illum? Suscipit repellat 
+            culpa labore?Harum corrupti earum ab nobis ad voluptatem, exercitationem labore reiciendis aut, eos doloribus. 
+            Maxime sed exercitationem ab sit optio excepturi, doloremque natus quia. Temporibus incidunt, illo tempore 
+            necessitatibus est assumenda.
+        </p>
+
+        <!-- O h2 é um pouco menor que o h1. -->
+        <h2 id="historia" class="subtitulo">História</h2>
+
+        <figure class="escritorio-antigo">
+            <img src="img/old-office.jpg" alt="Meu escritório antigo.">
+            <figcaption>
+                <em>Pequenos começos.</em>
+            </figcaption>
+        </figure>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolorum cumque, deserunt, enim tempora 
+            quae voluptatum repellat rerum reiciendis sed quis ducimus alias, unde ullam sapiente dignissimos 
+            consectetur neque voluptatibus.
+        </p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt velit ipsam vel doloremque in similique? 
+            Itaque alias, consequuntur tempore dolores, laudantium dicta, distinctio voluptatem hic quaerat sunt deleniti 
+            quasi vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, porro. Dicta consectetur corporis 
+            exercitationem libero possimus minima adipisci esse. Dolorum minima libero, placeat facere vero voluptates 
+            eum ratione officia sed?
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aperiam possimus fuga ex 
+            numquam, laborum velit fugiat esse quo sint sequi quia animi officia nesciunt illum? Suscipit repellat 
+            culpa labore?Harum corrupti earum ab nobis ad voluptatem, exercitationem labore reiciendis aut, eos doloribus. 
+            Maxime sed exercitationem ab sit optio excepturi, doloremque natus quia. Temporibus incidunt, illo tempore 
+            necessitatibus est assumenda.
+        </p>
+
+        <h2 id="diferenciais" class="subtitulo">Diferenciais</h2>
+        <ul>
+            <li>Melhor professor do mundo.</li>
+            <li>Anos de experiência.</li>
+            <li>As últimas tecnologias.</li>
+            <li>Mais de 1 bilhão de seguidores no TikTok e Instagram.</li>
+        </ul>
+
+        <h2 id="contato" class="titulo">Contato</h2>
+
+        <div class="contato__secao">
+            <h3 class="contato__subtitulo">Correspondência</h3>
+            <!-- small = representa letras miúdas. -->
+            <small>(todos os dias, das 9h às 18h)</small>
+            <!-- address = representa ENDEREÇOS. -->
+            <address class="contato__info">
+                Unicórnio Games
+                <br> <!-- br = quebra de linha/pula linha. -->
+                Rua Pires da Mota, 838
+                <br>
+                Aclimação
+                <br>
+                São Paulo - SP
+            </address>
+        </div>
+
+        <div class="contato__secao contato__secao--telefone">
+            <h3 class="contato__subtitulo">Telefones</h3>
+            <small>(todos os dias, das 9h às 18h)</small>
+            <dl class="contato__info">
+                <div>
+                    <dt class="contato__info-titulo">Pessoa Física:</dt>
+                    <dd class="contato__info-descricao"><a href="tel://11998868387">11-99886-8387</a></dd>
+                </div>
+                
+                <div>
+                    <dt class="contato__info-titulo">Pessoa Jurídica:</dt>
+                    <dd class="contato__info-descricao"><a href="tel://1190905959">11-9090-5959</a></dd>
+                </div>
+            </dl>
+        </div>
+
+        <footer class="rodape">
+            <img src="img/meu-logo.png" alt="Meu Logo" class="rodape__logo">
+            <p class="rodape__copyright">&copy; Copyright by Everton</p>
+        </footer>
+    </body>
+</html> <!-- Marca o fim do documento. -->
